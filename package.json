@@ -1,17 +1,16 @@
 {
   "name": "local-tests-pw",
   "version": "1.0.0",
-  "description": "Playwright end-toend tests for localcoding.us",
+  "description": "Playwright end-to-end tests for localcoding.us",
   "scripts": {
     "test": "playwright test",
     "test:debug": "playwright test --headed",
     "report": "playwright show-report"
-
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
-    "@playwright/test": "1.37.1"
+    "@playwright/test": "1.37.1",
+    "dotenv": "16.3.1"
   }
 }
